@@ -11,11 +11,9 @@ html {
     display: block;
     margin: 70px auto;
     width: 90%;
-    /* border: 1px solid brown; */
 }
 
 #top-half {
-    /* border: 1px solid brown; */
     width: 100%;
     display: flex;
 }
@@ -23,7 +21,6 @@ html {
 #bottom-half {
     width: 100%;
     display: flex;
-    /* flex-shrink: 2; */
 }
 
 #topic-subtitle-div {
@@ -48,9 +45,7 @@ h1 {
 }
 
 #review-div .review {
-    /* border: 1px solid black; */
     display: inline-flex;
-    
     align-items: center;
     width: 430px;
     height: 60px;
