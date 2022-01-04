@@ -1,0 +1,134 @@
+html {
+    font-family: 'Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+#container {
+    display: block;
+    margin: 70px auto;
+    width: 90%;
+    /* border: 1px solid brown; */
+}
+
+#top-half {
+    /* border: 1px solid brown; */
+    width: 100%;
+    display: flex;
+}
+
+#bottom-half {
+    width: 100%;
+    display: flex;
+    /* flex-shrink: 2; */
+}
+
+#topic-subtitle-div {
+    display: block;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+}
+
+#subtitle {
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+}
+
+#review-div {
+    display: block;
+    width: 550px;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+#review-div .review {
+    /* border: 1px solid black; */
+    display: inline-flex;
+    
+    align-items: center;
+    width: 430px;
+    height: 60px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.rating-stars {
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+#second-review {
+    margin-left: 50px;
+}
+
+#third-review {
+    margin-left: 100px;
+}
+
+#bottom-half {
+    margin-top: 50px;
+}
+
+
+.comment {
+    height: 190px;
+    width: 400px;
+    border-radius: 8px;
+    margin-right: 25px;
+    padding: 30px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.user-picture {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-section {
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.name-section {
+    line-height: 0.1;
+    font-size: 14px;
+}
+
+.user-name {
+    color: white;
+    font-size: 15px;
+}
+
+.user-title {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.comment-text {
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#second-comment-block {
+    margin-top: 25px;
+}
+
+#third-comment-block {
+    margin-top: 50px;
+}
